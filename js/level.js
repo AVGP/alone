@@ -83,7 +83,7 @@ var initLevel = function(world, root) {
     cabinet.action = {
       activate: function(player) {
         var file = new THREE.Sprite(new THREE.SpriteMaterial({
-          map: THREE.ImageUtils.loadTexture('sprites/file.png')
+          map: THREE.ImageUtils.loadTexture('sprites/diary/diary1_1.jpg')
         }));
         var playerPos = player.position;
         file.rotation.set(player.rotation.x, player.rotation.y, player.position.z);
